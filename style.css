@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-section {
   position: relative;
   background-color: var(--light-color);
-  background-image: url(Assets/x7pfvyv5.png);
+  background-image: url(./Assets/x7pfvyv5.png);
   background-size: cover;
   /* background-position: center; */
   overflow: hidden;
