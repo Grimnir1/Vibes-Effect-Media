@@ -147,6 +147,18 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease;
 }
 
+#services{
+  background-image: url(Assets/eventPhotography.jpg);
+}
+
+.glass-effect{
+  /* background: rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
 .img-hover:hover .portfolio-overlay {
   opacity: 1;
 }
@@ -227,8 +239,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: white;
+  color: var(--primary-color);
 }
 
 .testimonial-card {
