@@ -1,0 +1,66 @@
+.wedding{
+    background-image: url(./Assets/x7pfvyv5.png);
+    background-size: cover;
+    height: 90dvh;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-repeat: no-repeat;
+}
+
+.portraits{
+    background-image: url(./Assets/CORPORATEHEADSHOTS/16-3ae66cc0-2500.jpg);
+    height: 90dvh;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.events{
+    background-image: url(./Assets/VIB_7741.jpg);
+    height: 90dvh;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-title{
+    font-size: 3rem;
+}
+.portfolio-button{
+    border: 1px solid black;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.portfolio-button:hover{
+    background-color: transparent;
+    color: black;
+    
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-button{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .main-title{
+        font-size: 2rem;
+    }
+    .wedding{
+        height: 50dvh;
+    }
+    .portraits{
+        height: 50dvh;
+        background-position: center;
+
+    }
+    .events{
+        height: 50dvh;
+    }
+    
+}
