@@ -3,23 +3,19 @@
     position: relative;
     height: 100%;
 }
-
-/* .portfolio-item img {
+.portfolio-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease;
-} */
+    transition: transform 0.5s ease;
+}
 
 .portfolio-item:hover img {
     transform: scale(1.05);
 }
-
 .section-header {
     font-weight: 600;
 }
-
-
 .row.no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -29,4 +25,7 @@
 .row.no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
+}
+.images-display{
+  height: fit-content;
 }
