@@ -140,15 +140,15 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease;
 }
 
-
+/* 
 .glass-effect{
-  /* background: rgba(255, 255, 255, 0.5); */
-  /* backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-  transition: all 0.3s ease; */
-}
+  transition: all 0.3s ease;
+} */
 .img-hover:hover .portfolio-overlay {
   opacity: 1;
 }
@@ -408,7 +408,21 @@ h4.service-title {
 
 
 
-
+@media screen and (max-width: 768px) {
+  .hero-section {
+    min-height: 60vh;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .service-card {
+    margin-bottom: 2rem;
+  }
+  .lead {
+    font-size: .9rem;
+  }
+  
+}
 
 
 
